@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    build: .
+    # Forward port 8080
+    ports:
+      - "8080:8080"
+    environment:
+     - NODE_ENV=development
+    # Keep booting
+    tty: true
+    # volumes:
+    #   - .:/app
