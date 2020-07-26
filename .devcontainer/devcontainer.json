@@ -1,0 +1,12 @@
+{
+    "name": "vue-map-app",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "web",
+    "extensions": [
+        "mhutchie.git-graph",
+    ],
+    "forwardPorts": [
+        8080
+    ],
+    "workspaceFolder": "/app",
+}
